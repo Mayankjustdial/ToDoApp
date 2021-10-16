@@ -1,0 +1,47 @@
+body{
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,64,144,0.7570378493194152) 57%, rgba(0,212,255,1) 99%);
+}
+.App{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,64,144,0.7570378493194152) 57%, rgba(0,212,255,1) 99%);
+  min-height: 500px;
+  width: 400px;
+  margin:100px auto;
+  border-radius: 25px 0 25px 0 ; 
+}
+#to-do-form input{
+  border:0;
+  width:200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius:10px;
+  color:rgb(5, 33, 203);
+  font-size: 18px;
+  background: black;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#to-do-form input::placeholder{
+  color: rgba(206, 87, 7, 0.5);
+}
+#to-do-form input:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 10px 0 10px 0;
+  border: 0;
+  background-color: rgb(14 56 104);
+  cursor: pointer;
+  font-weight: bolder;
+  color:rgb(9 248 237);
+}
+#to-do-form button:focus{
+  -webkit-text-fill-color: transparent;
+  outline: none;
+}
